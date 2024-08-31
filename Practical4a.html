@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Guide</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 20px;
+        }
+        .jumbotron {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .container {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Travel Guide</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#destinations">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#things-to-do">Things to Do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-us">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1 class="display-4">Explore the World with Us</h1>
+        <p class="lead">Discover new destinations, experiences, and cultures.</p>
+        <hr class="my-4">
+        <p>Start your journey today!</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#destinations" role="button">Explore Destinations</a>
+        </p>
+    </div>
+    <div class="container" id="destinations">
+        <h2>Destinations</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>The Strip</h3>
+                <p>The famous Las Vegas Strip is home to numerous iconic hotels, each offering a distinct atmosphere and amenities.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Red Rock Canyon</h3>
+                <p>Located just 20 miles west of Las Vegas, Red Rock Canyon offers hiking trails, scenic drives, and stunning natural beauty.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Hoover Dam</h3>
+                <p>A National Historic Landmark located just 30 miles southeast of Las Vegas, the Hoover Dam offers guided tours and stunning views.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="things-to-do">
+        <h2>Things to Do</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>See a Show</h3>
+                <p>Las Vegas is known for its entertainment options, with numerous shows and performances to choose from.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Visit the Casinos</h3>
+                <p>Las Vegas is famous for its casinos, each offering a unique atmosphere and gaming options.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Explore the Outdoors</h3>
+                <p>Las Vegas offers a range of outdoor activities, including hiking, rock climbing, and visiting the surrounding landscape.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="about-us">
+        <h2>About Us</h2>
+        <p>We are a team of travel enthusiasts dedicated to providing you with the best travel experiences.</p>
+    </div>
+    <div class="container" id="contact-us">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <span class="text-muted">Copyright 2024 Travel Guide</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
